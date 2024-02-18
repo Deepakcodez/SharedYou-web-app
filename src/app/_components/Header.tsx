@@ -3,9 +3,9 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-    <header className="bg-white">
-  <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8 border-b">
-    <a className="block text-teal-600" href="#">
+    <header className="bg-[#111827]">
+  <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8 border-b border-white/25">
+    <a className="block text-blue-600" href="#">
       <span className="sr-only">Home</span>
       <svg className="h-8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -19,19 +19,19 @@ const Header = () => {
       <nav aria-label="Global" className="hidden md:block">
         <ul className="flex items-center gap-6 text-sm">
           <li>
-            <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Home </a>
+            <a className="text-gray-200 transition hover:text-gray-200/75" href="#"> Home </a>
           </li>
 
           <li>
-            <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Uploads </a>
+            <a className="text-gray-200 transition hover:text-gray-200/75" href="#"> Uploads </a>
           </li>
 
           <li>
-            <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Contact-us </a>
+            <a className="text-gray-200 transition hover:text-gray-200/75" href="#"> Contact-us </a>
           </li>
 
           <li>
-            <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> About-us </a>
+            <a className="text-gray-200 transition hover:text-gray-200/75" href="#"> About-us </a>
           </li>
         </ul>
       </nav>
@@ -39,14 +39,14 @@ const Header = () => {
       <div className="flex items-center gap-4">
         <div className="sm:flex sm:gap-4">
           <a
-            className="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
+            className="block rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-blue-700"
             href="#"
           >
             Login
           </a>
 
           <a
-            className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
+            className="hidden rounded-md bg-gray-300 px-5 py-2.5 text-sm font-medium text-blue-600 transition hover:text-blue-600/75 sm:block"
             href="#"
           >
             Register
