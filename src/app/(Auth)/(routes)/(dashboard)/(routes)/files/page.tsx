@@ -3,8 +3,8 @@ import React from 'react'
 
 const Files = () => {
   return (
-    <div className="h-screen">
-      files
+    <div className=" w-full  flex px-5 p-2 justify-between">
+      <h1>Files</h1>
     <UserButton afterSignOutUrl='/' />
   </div>
   )
