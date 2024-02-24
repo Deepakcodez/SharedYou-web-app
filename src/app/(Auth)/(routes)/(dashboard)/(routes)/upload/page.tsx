@@ -14,12 +14,12 @@ const Upload = () => {
     if (uploadedFile.size > 2000000) {
       setAlert(true);
       setTimeout(() => {
-        setAlert(false)
-      },2000);
+        setAlert(false);
+      }, 2000);
       console.log("File size exceeds 2MB");
     } else {
       setFile(uploadedFile);
-     setAlert(false)
+      setAlert(false);
       console.log("Uploaded file:", uploadedFile);
     }
   };
@@ -58,7 +58,7 @@ const Upload = () => {
             onChange={(e) => uploadhandler(e)}
           />
         </label>
-        <PreviewFile file={file}/>
+        {file && <PreviewFile file={file}  removeFile={()=>setFile(null)} />}
       </div>
 
       {/* alert  */}
